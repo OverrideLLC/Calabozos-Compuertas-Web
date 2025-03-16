@@ -1,0 +1,764 @@
+@import url("https://fonts.cdnfonts.com/css/dragon-hunter");
+
+main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Coloca los íconos en extremos opuestos */
+  align-items: center;
+  padding: 0 30px; /* Espaciado interno para separar un poco del borde */
+}
+
+.FontMenu {
+  width: 100vw;
+  height: 100vh;
+  min-height: 350px;
+  margin: 0;
+  position: relative;
+  background-color: #111;
+  box-shadow: 100px 20px 40px rgba(255, 128, 44, 0.533);
+  background-image: linear-gradient(
+      to top,
+      #9b6161 5%,
+      #111 6%,
+      #111 7%,
+      transparent 7%
+    ),
+    linear-gradient(to bottom, #111 30%, transparent 30%),
+    linear-gradient(to right, #222, #2e2e2e 5%, transparent 5%),
+    linear-gradient(
+      to right,
+      transparent 6%,
+      #794d4d 6%,
+      #2e2e2e 9%,
+      transparent 9%
+    ),
+    linear-gradient(
+      to right,
+      transparent 27%,
+      #683737 27%,
+      #2e2e2e 34%,
+      transparent 34%
+    ),
+    linear-gradient(
+      to right,
+      transparent 51%,
+      #8f6c3f 51%,
+      #2e2e2e 57%,
+      transparent 57%
+    ),
+    linear-gradient(to bottom, #111 35%, transparent 35%),
+    linear-gradient(
+      to right,
+      transparent 42%,
+      #000000 42%,
+      #2e2e2e 44%,
+      transparent 44%
+    ),
+    linear-gradient(
+      to right,
+      transparent 45%,
+      #8b6f49 45%,
+      #2e2e2e 47%,
+      transparent 47%
+    ),
+    linear-gradient(
+      to right,
+      transparent 48%,
+      #222 48%,
+      #2e2e2e 50%,
+      transparent 50%
+    ),
+    linear-gradient(
+      to right,
+      transparent 87%,
+      #222 87%,
+      #2e2e2e 91%,
+      transparent 91%
+    ),
+    linear-gradient(to bottom, #111 37.5%, transparent 37.5%),
+    linear-gradient(
+      to right,
+      transparent 14%,
+      #222 14%,
+      #2e2e2e 20%,
+      transparent 20%
+    ),
+    linear-gradient(to bottom, #111 40%, transparent 40%),
+    linear-gradient(
+      to right,
+      transparent 10%,
+      #222 10%,
+      #2e2e2e 13%,
+      transparent 13%
+    ),
+    linear-gradient(
+      to right,
+      transparent 21%,
+      #222 21%,
+      #1a1a1a 25%,
+      transparent 25%
+    ),
+    linear-gradient(
+      to right,
+      transparent 58%,
+      #222 58%,
+      #2e2e2e 64%,
+      transparent 64%
+    ),
+    linear-gradient(
+      to right,
+      transparent 92%,
+      #222 92%,
+      #2e2e2e 95%,
+      transparent 95%
+    ),
+    linear-gradient(to bottom, #111 48%, transparent 48%),
+    linear-gradient(
+      to right,
+      transparent 96%,
+      #222 96%,
+      #1a1a1a 99%,
+      transparent 99%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 68.5%,
+      transparent 76%,
+      #111 76%,
+      #111 77.5%,
+      transparent 77.5%,
+      transparent 86%,
+      #111 86%,
+      #111 87.5%,
+      transparent 87.5%
+    ),
+    linear-gradient(
+      to right,
+      transparent 35%,
+      #222 35%,
+      #2e2e2e 41%,
+      transparent 41%
+    ),
+    linear-gradient(to bottom, #111 68%, transparent 68%),
+    linear-gradient(
+      to right,
+      transparent 78%,
+      #333 78%,
+      #333 80%,
+      transparent 80%,
+      transparent 82%,
+      #333 82%,
+      #333 83%,
+      transparent 83%
+    ),
+    linear-gradient(
+      to right,
+      transparent 66%,
+      #222 66%,
+      #2e2e2e 85%,
+      transparent 85%
+    );
+  background-size: 300px 150px;
+  background-position: center bottom;
+}
+
+.FontMenu::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #111;
+  box-shadow: 100px 20px 40px rgba(255, 128, 44, 0.533);
+  background-image: linear-gradient(
+      to top,
+      tan 5%,
+      #111 6%,
+      #111 7%,
+      transparent 7%
+    ),
+    linear-gradient(to bottom, #111 30%, transparent 30%),
+    linear-gradient(to right, firebrick, #8b0000 5%, transparent 5%),
+    linear-gradient(
+      to right,
+      transparent 6%,
+      rgb(255, 158, 141) 6%,
+      #fa816f 9%,
+      transparent 9%
+    ),
+    linear-gradient(
+      to right,
+      transparent 27%,
+      #556b2f 27%,
+      #a2b484 34%,
+      transparent 34%
+    ),
+    linear-gradient(
+      to right,
+      transparent 51%,
+      rgb(218, 150, 142) 51%,
+      #fa8072 57%,
+      transparent 57%
+    ),
+    linear-gradient(to bottom, #111 35%, transparent 35%),
+    linear-gradient(
+      to right,
+      transparent 42%,
+      teal 42%,
+      #008080 44%,
+      transparent 44%
+    ),
+    linear-gradient(
+      to right,
+      transparent 45%,
+      rgb(81, 235, 235) 45%,
+      #008080 47%,
+      transparent 47%
+    ),
+    linear-gradient(
+      to right,
+      transparent 48%,
+      rgb(82, 221, 221) 48%,
+      #008080 50%,
+      transparent 50%
+    ),
+    linear-gradient(
+      to right,
+      transparent 87%,
+      lightslategrey 87%,
+      #778899 91%,
+      transparent 91%
+    ),
+    linear-gradient(to bottom, #111 37.5%, transparent 37.5%),
+    linear-gradient(
+      to right,
+      transparent 14%,
+      darkkhaki 14%,
+      #bdb76b 20%,
+      transparent 20%
+    ),
+    linear-gradient(to bottom, #111 40%, transparent 40%),
+    linear-gradient(
+      to right,
+      transparent 10%,
+      olive 10%,
+      #000000 13%,
+      transparent 13%
+    ),
+    linear-gradient(
+      to right,
+      transparent 21%,
+      saddlebrown 21%,
+      #8b4513 25%,
+      transparent 25%
+    ),
+    linear-gradient(
+      to right,
+      transparent 58%,
+      saddlebrown 58%,
+      #8b4513 64%,
+      transparent 64%
+    ),
+    linear-gradient(
+      to right,
+      transparent 92%,
+      darkslategrey 92%,
+      #2f4f4f 95%,
+      transparent 95%
+    ),
+    linear-gradient(to bottom, #111 48%, transparent 48%),
+    linear-gradient(
+      to right,
+      transparent 96%,
+      darkslategrey 96%,
+      #2f4f4f 99%,
+      transparent 99%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 68.5%,
+      transparent 76%,
+      #111 76%,
+      #111 77.5%,
+      transparent 77.5%,
+      transparent 86%,
+      #111 86%,
+      #111 87.5%,
+      transparent 87.5%
+    ),
+    linear-gradient(
+      to right,
+      transparent 35%,
+      indianred 35%,
+      #cd5c5c 41%,
+      transparent 41%
+    ),
+    linear-gradient(to bottom, #111 68%, transparent 68%),
+    linear-gradient(
+      to right,
+      transparent 78%,
+      rosybrown 78%,
+      #bc8f8f 80%,
+      transparent 80%,
+      transparent 82%,
+      rosybrown 82%,
+      #bc8f8f 83%,
+      transparent 83%
+    ),
+    linear-gradient(
+      to right,
+      transparent 66%,
+      brown 66%,
+      #a52a2a 85%,
+      transparent 85%
+    );
+  background-size: 300px 150px;
+  background-position: center bottom;
+  clip-path: circle(150px at center center);
+}
+
+.clickable-book {
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 2px;
+
+  transition: transform 0.3s ease, scale 0.3s ease;
+}
+
+.clickable-book:hover {
+  background: linear-gradient(#161616, #000000, #181818);
+}
+
+/* Posicionar primer libro (izquierda) */
+.book1 {
+  left: calc(50% - 68.1px);
+  bottom: 51.5%;
+  background: linear-gradient(#364634, #556b2f);
+}
+/* Posicionar segundo libro (derecha) */
+.book2 {
+  height: 85px;
+  left: calc(51% + 10px);
+  bottom: 51.5%;
+  background: linear-gradient(#364634, #008080);
+}
+
+.burger {
+  z-index: 9999;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
+  transition: 100ms;
+  border-radius: 10px;
+  border: #d09306 solid 4px;
+}
+.burger input[type="checkbox"] {
+  appearance: none;
+  transition: 300ms;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  transition: 300ms;
+  transform-origin: center center;
+}
+
+.burger::before {
+  transform: translateY(8px);
+}
+.burger::after {
+  transform: translateY(-8px);
+}
+.burger .line,
+.burger::before,
+.burger::after {
+  width: 25px;
+  height: 4px;
+  display: block;
+  background-color: #d09306;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.burger .line:checked {
+  width: 0;
+  transition-delay: 100ms;
+}
+.burger:has(.line:checked)::before {
+  animation: animation1 400ms ease-out 0s 1 both;
+}
+.burger:has(.line:checked)::after {
+  animation: animation2 400ms ease-out 0s 1 both;
+}
+
+.burger:hover {
+  border-radius: 50%;
+}
+
+.burger:hover .line,
+.burger:hover::before,
+.burger:hover::after {
+  background: linear-gradient(90deg, #d09306, yellow);
+}
+
+.burger:active {
+  scale: 0.95;
+}
+@keyframes animation1 {
+  0% {
+    transform: translateY(8px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+  }
+}
+@keyframes animation2 {
+  0% {
+    transform: translateY(-8px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(-45deg);
+  }
+}
+
+.menuOpt {
+  display: none;
+  position: fixed;
+  top: 40%;
+  flex-direction: column;
+  width: 35%;
+  height: 45%;
+  padding: 10px;
+  background-color: none;
+  justify-content: center;
+  align-items: center;
+  border-end-end-radius: 10px;
+
+  border: #d09306 solid 5px;
+  background: none;
+  gap: 30px;
+}
+
+.menuOpt p {
+  font-size: 40px;
+  color: #cc372a;
+  font-weight: 100;
+  font-family: "DRAGON HUNTER", sans-serif !important;
+}
+
+.value {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  position: relative;
+  gap: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.value:focus,
+.value:active {
+  outline: none;
+}
+
+.value::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  width: 5px;
+  height: 80%;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.value:focus::before,
+.value:active::before {
+  opacity: 1;
+}
+
+.value svg {
+  width: 15px;
+}
+
+.sliderVolume {
+  /* slider */
+  --slider-width: 100%;
+  --slider-height: 6px;
+  --slider-bg: rgb(82, 82, 82);
+  --slider-border-radius: 999px;
+  /* level */
+  --level-color: #d09306;
+  --level-transition-duration: 0.1s;
+  /* icon */
+  --icon-margin: 15px;
+  --icon-color: var(--slider-bg);
+  --icon-size: 25px;
+}
+
+.sliderVolume {
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sliderVolume .volume {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: var(--icon-margin);
+  color: var(--icon-color);
+  width: var(--icon-size);
+  height: auto;
+}
+
+.sliderVolume .level {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: var(--slider-width);
+  height: var(--slider-height);
+  background: var(--slider-bg);
+  overflow: hidden;
+  border-radius: var(--slider-border-radius);
+  -webkit-transition: height var(--level-transition-duration);
+  -o-transition: height var(--level-transition-duration);
+  transition: height var(--level-transition-duration);
+  cursor: inherit;
+}
+
+.sliderVolume .level::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+  -webkit-box-shadow: -200px 0 0 200px var(--level-color);
+  box-shadow: -200px 0 0 200px var(--level-color);
+}
+
+.sliderVolume:hover .level {
+  height: calc(var(--slider-height) * 2);
+}
+
+.toggleSwitch {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+  overflow: hidden;
+}
+
+/* Hide default HTML checkbox */
+#checkboxInput {
+  display: none;
+}
+
+.bell {
+  width: 18px;
+}
+
+.bell path {
+  fill: white;
+}
+
+.speaker {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition-duration: 0.3s;
+}
+
+.speaker svg {
+  width: 18px;
+}
+
+.mute-speaker {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  z-index: 3;
+  transition-duration: 0.3s;
+}
+
+.mute-speaker svg {
+  width: 18px;
+}
+
+#checkboxInput:checked + .toggleSwitch .speaker {
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+#checkboxInput:checked + .toggleSwitch .mute-speaker {
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+
+#checkboxInput:active + .toggleSwitch {
+  transform: scale(0.7);
+}
+
+.characterPJ {
+  margin: 0 auto;
+  transform: translate3d(20%, 85%, 0);
+  width: 35%;
+  height: 55%;
+}
+
+.characterVela {
+  margin-top: -11.9%;
+  z-index: -99999;
+  transform: translate3d(960%, 205%, 0);
+  width: 5%;
+  height: 10%;
+}
+
+/*Book title interno*/
+
+.textContainerBook1Menu,
+.textContainerBook2Menu {
+  z-index: 99;
+  position: absolute;
+  width: 30%;
+  color: #fff;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.titleBookGMenu {
+  font-weight: 700;
+  font-family: "DRAGON HUNTER", sans-serif !important;
+  color: #d09306 !important;
+  font-size: 17px;
+  text-shadow: -0.8 -0.8 0 black, 0.8 -0.8 0 black, -0.8 0.8 0 black,
+    0.8 0.8 0 black;
+}
+
+.tercera-palabra {
+  color: #cc372a; /* Color para la primera letra */
+  margin-left: 7px;
+}
+
+.titleBookMenu {
+  font-size: 11px;
+  font-family: "DRAGON HUNTER" !important;
+}
+
+.textContainerBook1Menu {
+  transform: translate(101%) rotate(-60deg);
+  pointer-events: none;
+}
+
+.textContainerBook2Menu {
+  transform: translate(125%) rotate(-60deg);
+  pointer-events: none;
+}
+
+.titleBookMenu {
+  display: inline-block;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 3.8s steps(40, end) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/*Buttons*/
+.menuButtonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.menuButtons {
+  border: 3px solid #d09306;
+  padding: 12px 10px 12px 10px;
+  border-radius: 30px;
+  background-color: none;
+  font-weight: bolder;
+  font-size: 12px;
+  box-shadow: 0px 0px 1px;
+  transform: all 2s esase;
+  transition-duration: 0.3s;
+  color: #d09306;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255) rgb(255, 255, 255) x 1px 0 black,
+    1px 1px 0 rgb(255, 255, 255);
+  text-align: center;
+}
+
+.menuButtons:hover {
+  box-shadow: 0px 7px 1px #d09306;
+  border: 1px solid #d09306;
+}
+
+.menuButtons:active {
+  transform: translateY(10px);
+  box-shadow: 0px 0px 1px;
+}

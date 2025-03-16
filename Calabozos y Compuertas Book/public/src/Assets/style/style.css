@@ -1,0 +1,48 @@
+/*Charger init*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.cdnfonts.com/css/dragon-hunter");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-size: 800% 800%;
+  background: #000;
+  transition: 0.4s ease-in-out;
+  height: 100vh;
+  user-select: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-height: 400px) {
+  .TitleCandC {
+    font-size: 40px !important;
+  }
+
+  .TitleTextBookCharger {
+    font-size: 40px !important;
+  }
+
+  .DescCandC {
+    font-size: 11px !important;
+  }
+
+  .TextBookCharger {
+    font-size: 11px !important;
+  }
+
+  footer img {
+    width: 5% !important;
+    height: 5% !important;
+  }
+}
